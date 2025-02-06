@@ -5,9 +5,7 @@ public class MainAlbumDeFotos {
     public static void main(String[] args) {
 
         /*
-        Desarrolla un programa en Java para administrar un álbum de fotos mediante la programación orientada a objetos.
-
-Comienza creando una clase llamada AlbumFotos con un atributo privado numPaginas de tipo int. Además, incluye un método público GetNumeroPaginas que devolverá el número de páginas del álbum de fotos.
+Comienza creando una clase llamada AlbumFotos con un atributo privado numPaginas de tipo int. Además, incluye un méto.do público GetNumeroPaginas que devolverá el número de páginas del álbum de fotos.
 
 El constructor predeterminado creará un álbum con 16 páginas. Se proporcionará un constructor adicional que nos permitirá especificar el número de páginas deseado para el álbum.
 
@@ -21,16 +19,19 @@ Crear un gran álbum de fotos y mostrar el número de páginas.
 
 Desglose tareas:
 -Clase AlbumFotos con atributo numPaginas de tipo int
--Metodo GetNumeroPaginas public que devuelve integer numPaginas
+-Metodo GetNumeroPaginas public que devuelve integer numPaginas                     //QUE GUARDA
 -Constructor crea album 16 paginas
--otro constructor nos permite especificar numero paginas deseado (pedir usuario)
--Clase SuperAlbumFotos constructor crea album 64 paginas
+-otro constructor nos permite especificar numero paginas deseado (pedir usuario)    // NO pedir usuario, se da en el metodo acciones, no hay interaccion user
+-Clase SuperAlbumFotos constructor crea album 64 paginas                            // como crea album, EXTIENDE de AlbumFotos
 -Clase AlbumTest que:
     -Crea albumFotos predet. y muestra numPaginas
     -Crea albumFotos de 24 paginas y muestra numPaginas
     -Crea SuperAlbumFotos y muestra numPaginas
+                                                                                    -// EXTRA llamar al metodo acciones en el main, para que AlbumTest ejecute las acciones requeridas
          */
 
+        AlbumTest.acciones();
 
             }
+
 }
